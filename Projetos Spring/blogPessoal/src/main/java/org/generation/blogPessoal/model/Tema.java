@@ -25,9 +25,7 @@ public class Tema {
 	@JsonIgnoreProperties("tema")
 	private List <Postagem> postagem;
 
-	public Tema(long l, String string) {
-	
-	}
+
 
 	public long getId() {
 		return id;
