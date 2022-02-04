@@ -21,10 +21,10 @@ public class Usuario {
 	@Size(min = 2 , max = 30)
 	private String usuario;
 	@NotNull
-	@Size(min = 8 , max = 30)
-	
-	
+	@Size(min = 8 , max = 100)
 	private String senha;
+	
+	
 	public long getId() {
 		return id;
 	}
